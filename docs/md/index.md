@@ -5,7 +5,4 @@ page on your GitHub Pages site.
 
 This page will document how to make use of the Tethered Flight Arena Software built on Unity, using DeepLabCut for pose-estimation
 
-> :Buttons
-> > :Button label=Official Docs, url=https://codedoc.cc
-
 > :ToCPrevNext
