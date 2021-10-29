@@ -1,7 +1,8 @@
 
-import { configuration } from '@codedoc/core';
+import { configuration, DefaultMarkdownCustomComponents} from '@codedoc/core';
 
 import { theme } from './theme';
+import { CenterImage } from './components/centerimage';      // --> import the card component itself
 
 
 export const config = /*#__PURE__*/configuration({
@@ -18,6 +19,12 @@ export const config = /*#__PURE__*/configuration({
     github: {
       user: 'blade32232',                 // --> your github username (where your repo is hosted)
       repo: 'blade32232web',       // --> your github repo name
+    }
+  },
+  markdown: {                                  // --> update markdown config
+    customComponents: {                        // --> add to custom components
+      ...DefaultMarkdownCustomComponents,      // --> make sure to add default markdown components. otherwise the default components will not work!
+      CenterImage,                                    // --> add our own card component
     }
   },
 });

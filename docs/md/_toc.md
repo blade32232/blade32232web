@@ -1,4 +1,5 @@
 [Home](/)
+[User Manual](/docs/usermanual)
 [Markdown Cheat Sheet](/docs/cheat-sheet)
 [Code Features](/docs/code-features)
 
