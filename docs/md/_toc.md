@@ -1,6 +1,4 @@
 [Home](/)
-
-
 > :Collapse label=User Manual
 >
 > [User Manual](/docs/usermanual)
