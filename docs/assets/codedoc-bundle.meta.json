@@ -83,6 +83,11 @@
       "hash": "y/Z0TkGUuy90rdYV0cdhQg=="
     },
     {
+      "name": "CollapseControl",
+      "filename": "C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/collapse/collapse-control.js",
+      "hash": "/kqcZjlRRzc1ickjP7DYCg=="
+    },
+    {
       "name": "GithubSearch",
       "filename": "C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/misc/github/search.js",
       "hash": "HvP1vwP888Sdhuopqchp7w=="
@@ -106,11 +111,6 @@
       "name": "TabSelector",
       "filename": "C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/tabs/selector.js",
       "hash": "KrfQtkzyHoK8ExJRPl6Ycw=="
-    },
-    {
-      "name": "CollapseControl",
-      "filename": "C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/collapse/collapse-control.js",
-      "hash": "/kqcZjlRRzc1ickjP7DYCg=="
     }
   ],
   "renderer": {
