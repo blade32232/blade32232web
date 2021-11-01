@@ -1,0 +1,77 @@
+<!DOCTYPE html><html><head><title>Blade32232.github.io</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"><meta name="robots" content="index,follow"><meta name="theme-color" content="#212121"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><link href="https://fonts.googleapis.com/css?family=Hind:400,700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/icon?family=Material+Icons%7CMaterial+Icons+Outlined&amp;display=swap" rel="stylesheet"><style>
+      body, input, button {
+        font-family: 'Hind', sans-serif;
+      }
+
+      code, .hljs {
+        font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+      }
+
+      .icon-font {
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 24px;  /* Preferred icon size */
+        display: inline-block;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+      
+        /* Support for all WebKit browsers. */
+        -webkit-font-smoothing: antialiased;
+        /* Support for Safari and Chrome. */
+        text-rendering: optimizeLegibility;
+      
+        /* Support for Firefox. */
+        -moz-osx-font-smoothing: grayscale;
+      
+        /* Support for IE. */
+        font-feature-settings: 'liga';
+      }
+
+      .icon-font.outline {
+        font-family: 'Material Icons Outlined';
+      }
+    </style><link href="/blade32232web/docs/assets/codedoc-styles.css" rel="stylesheet"><script async="" defer="" src="/blade32232web/docs/assets/codedoc-bundle.js"></script></head><body><div class="header-0-0-4"><script async="" defer="" src="https://buttons.github.io/buttons.js"></script><a class="github-button" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="false" data-show-count="true" data-size="false" href="https://github.com/blade32232/blade32232web/">Star</a><br><br></div><div id="-codedoc-container" class="container"><marker><style>
+img[src*="#centered"] {
+   margin:auto;
+   display:block;
+}
+img[src*="#invertedcenter"] {
+   margin:auto;
+   display:block;
+   background: white;
+   width: 55%;
+   height: auto;
+}
+img[src*="#small"] {
+   width: 250px;
+   height: auto;
+}
+div.centertext{
+   text-align:center;
+}
+</style>
+
+</marker><h1 id="interface" class="heading-0-0-1"><span class="anchor-0-0-2" data-ignore-text=""><span class="icon-font" data-ignore-text="" style="vertical-align: sub">link</span></span>Interface</h1><marker><hr>
+
+</marker><h2 id="visual-system" class="heading-0-0-1"><span class="anchor-0-0-2" data-ignore-text=""><span class="icon-font" data-ignore-text="" style="vertical-align: sub">link</span></span>Visual System</h2><ul><li>HUD</li><li>Menus</li><li>Camera Model</li></ul><p>Main Menu
+<img src="../../images/Systemdesignimages/image15.png#centered" alt="MainMenu"> </p><p>Stimulus Screen
+<img src="../../images/Systemdesignimages/image14.png#centered" alt="StimulusScreen"> </p><p>POV of Tethered Animal</p><p><img src="../../images/Systemdesignimages/image4.png#small" alt="LeftScreen"> <img src="../../images/Systemdesignimages/image5.png#small" alt="MiddleScreen"> <img src="../../images/Systemdesignimages/image3.png#small" alt="RightScreen"></p><h2 id="control-system" class="heading-0-0-1"><span class="anchor-0-0-2" data-ignore-text=""><span class="icon-font" data-ignore-text="" style="vertical-align: sub">link</span></span>Control System</h2><p>How does the game experimenter and tethered animal interact with the system? What are the specific commands?</p><p>The user has a few different ways to interact with the system, they are able to design scenes, navigate the project and create scriptable objects using the Unity editor. They can also activate the software by pressing the ‘Play’ button, this will then allow them to interact with the TFA user interface. From here they can start a sequence or replay a previous trial.</p><p>The tethered animal interacts with the system through a camera mounted above them, this feeds images to DLC-Live which calculates four points along the forward most facing edge of both wings, two on each wing. This is then fed into Unity where the points are used to calculate the wing beat amplitude for each wing, by calculating the difference between wing beat amplitudes (WBAD) we can then calculate the yaw rotation of the tethered animal as shown below. </p><p><img src="../../images/Systemdesignimages/image7.png#invertedcenter" alt="StimulusScreen"> </p><marker><div class="centertext">Results in a wing beat amplitude difference (WBAD) of 65</div>
+
+
+
+
+
+</marker><h2 id="help-system" class="heading-0-0-1"><span class="anchor-0-0-2" data-ignore-text=""><span class="icon-font" data-ignore-text="" style="vertical-align: sub">link</span></span>Help System</h2><p>At this stage help is only provided in the form of documentation found here – (HacknPlan / GoogleDrive link / Github)</p><script id="TTWXDVmbjL">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("TTWXDVmbjL", "y/Z0TkGUuy90rdYV0cdhQg==", {});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script><div class="contentnav-0-0-9" data-no-search=""><a href="#interface" class="h1" data-content-highlight="interface">Interface</a><a href="#visual-system" class="h2" data-content-highlight="visual-system">Visual System</a><a href="#control-system" class="h2" data-content-highlight="control-system">Control System</a><a href="#help-system" class="h2" data-content-highlight="help-system">Help System</a></div></div><div id="-codedoc-toc" class="toc-0-0-6"><div class="content-0-0-7"><p><a href="/blade32232web/">Home</a></p><div class="collapse-0-0-3 "><script id="MWXoCKNivX">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("MWXoCKNivX", "/kqcZjlRRzc1ickjP7DYCg==", {});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script><div class="label" onclick="this.parentElement.classList.toggle('open')"><span class="text">Tethered Flight Arena - User Manual</span><span class="icon-font closed">chevron_right</span></div><div class="content"><p><a href="/blade32232web/docs/usermanual/settings">Settings</a>
+<a href="/blade32232web/docs/usermanual/workflow">Workflow</a>
+<a href="/blade32232web/docs/usermanual/datacollection">Data Colletion</a>
+<a href="/blade32232web/docs/usermanual/scriptableobjects">Scriptable Objects</a></p></div></div><div class="collapse-0-0-3 "><script id="lxPrmwkh_I">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("lxPrmwkh_I", "/kqcZjlRRzc1ickjP7DYCg==", {});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script><div class="label" onclick="this.parentElement.classList.toggle('open')"><span class="text">Tethered Flight Arena - System Design</span><span class="icon-font closed">chevron_right</span></div><div class="content"><p><a href="/blade32232web/docs/systemdesign/terminology">Terminology</a>
+<a href="/blade32232web/docs/systemdesign/systemoverview">System Overview</a>
+<a href="/blade32232web/docs/systemdesign/userexperience">User Experience</a>
+<a href="/blade32232web/docs/systemdesign/mechanics">Mechanics</a>
+<a href="/blade32232web/docs/systemdesign/stimuli">Stimuli</a>
+<a href="/blade32232web/docs/systemdesign/interface">Interface</a></p></div></div></div><div class="search-0-0-8"><script id="uVLseuyEaP">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("uVLseuyEaP", "HvP1vwP888Sdhuopqchp7w==", {"repo":"blade32232web","user":"blade32232","root":"docs/md","pick":"\\.md$","drop":"(^_)|(\\/_)"});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script></div></div><div class="footer-0-0-5"><div class="left"><script id="DrJ_qWqwEy">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("DrJ_qWqwEy", "Vd2viD9554hXlsqM3Ax/yw==", {});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script></div><div class="main"><div class="inside"><a href="https://github.com/blade32232/blade32232web/" target="_blank">GitHub</a></div></div><div class="right"><script id="jiBNAmtqMf">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("jiBNAmtqMf", "E6CVdlySM0U/C7SmdHnYLw==", {});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script></div></div><script id="QDIgGByNVr">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("QDIgGByNVr", "nRVcrIhyv2PbPb5UKimI3Q==", {"namespace":"/blade32232web"});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script></body></html>

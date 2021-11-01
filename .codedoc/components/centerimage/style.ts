@@ -6,9 +6,4 @@ export const centerimage = themedStyle<CodedocTheme>(theme => ({
 centerimage: {
 },
 
-'p': {
-    margin: 'auto',
-    display: 'block',
-}
-
 }))

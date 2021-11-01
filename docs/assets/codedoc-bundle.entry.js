@@ -20,7 +20,6 @@ import { GithubSearch } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade3223
 import { ToCToggle } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/darkmode/index.js';
 import { ConfigTransport } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/transport/config.js';
-import { TabSelector } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/tabs/selector.js';
 
 const components = {
   'y/Z0TkGUuy90rdYV0cdhQg==': ToCPrevNext,
@@ -28,8 +27,7 @@ const components = {
   'HvP1vwP888Sdhuopqchp7w==': GithubSearch,
   'Vd2viD9554hXlsqM3Ax/yw==': ToCToggle,
   'E6CVdlySM0U/C7SmdHnYLw==': DarkModeSwitch,
-  'nRVcrIhyv2PbPb5UKimI3Q==': ConfigTransport,
-  'KrfQtkzyHoK8ExJRPl6Ycw==': TabSelector
+  'nRVcrIhyv2PbPb5UKimI3Q==': ConfigTransport
 };
 
 const renderer = getRenderer();
