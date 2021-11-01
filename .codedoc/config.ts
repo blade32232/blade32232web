@@ -12,8 +12,7 @@ register();                                        // --> register global docume
 export const config = /*#__PURE__*/configuration({
   theme,                                  // --> add the theme. modify `./theme.ts` for changing the theme.
   dest: {
-    namespace: '/blade32232web',    // --> your github pages namespace. remove if you are using a custom domain.
-    html: 'dist/html'
+    namespace: '/blade32232web'    // --> your github pages namespace. remove if you are using a custom domain.
   },
   page: {
     title: {
