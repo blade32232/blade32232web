@@ -1,7 +1,26 @@
 <style>
 img[src*="#centered"] {
-   margin:auto;
-   display:block;
+    margin:auto;
+    display:block;
+ }
+ img[src*="#invertedcenter"] {
+    margin:auto;
+    display:block;
+    background: white;
+    width: 55%;
+    height: auto;
+ }
+ img[src*="#small"] {
+    width: 250px;
+    height: auto;
+ }
+ div.centertext{
+    text-align:center;
+ }
+ abbr{
+    border: none;
+    text-decoration: none;
+    color: lightblue;
 }
 </style>
 
@@ -13,10 +32,10 @@ img[src*="#centered"] {
 
 ![ScriptableObjects](/images/image8.png#centered)
 
-Right click in the folder (shown by red dot) where you wish to create your new scriptable object. Then follow the path Create > ScriptableObjects > “Scriptable object”.
+Right click in the folder (shown by red dot) where you wish to create your new <abbr title="A specific type of script (code) that is used to configure settings and store data in the Unity Editor, These scripts can then be accessed at runtime if required when the Tethered Flight Arena is active.">scriptable object</abbr>. Then follow the path Create > ScriptableObjects > “Scriptable object”.
 
 ## Object of Interest (OOI)
-The Object of Interest script stores only one value, the OOI_ID, this allows for the appropriate manager scripts to find and interact with the Object of Interest within the scene that is represented by this unique ID, if it exists.
+The <abbr title="An object which acts as an independent variable due to the experimenter’s ability to alter various settings such as its position and behaviour. There can be none or many Objects of Interest within one trial and these objects will usually take the form of a plant, tree, prey, or predator familiar to the tethered animal.">Object of Interest</abbr> script stores only one value, the OOI_ID, this allows for the appropriate manager scripts to find and interact with the <abbr title="An object which acts as an independent variable due to the experimenter’s ability to alter various settings such as its position and behaviour. There can be none or many Objects of Interest within one trial and these objects will usually take the form of a plant, tree, prey, or predator familiar to the tethered animal.">Object of Interest</abbr> within the scene that is represented by this unique ID, if it exists.
 
 ![ScriptableObjects](/images/image1.png#centered)
 
@@ -39,7 +58,7 @@ Interventions are used to manipulate Objects of Interest within the scene during
     - Line of sight (not implemented)
     - Proximity
 
-The selected action is performed on the Object of Interest once the conditions of the trigger have been met. E.g 3 seconds have passed.
+The selected action is performed on the <abbr title="An object which acts as an independent variable due to the experimenter’s ability to alter various settings such as its position and behaviour. There can be none or many Objects of Interest within one trial and these objects will usually take the form of a plant, tree, prey, or predator familiar to the tethered animal.">Object of Interest</abbr> once the conditions of the trigger have been met. E.g 3 seconds have passed.
 
 ![ScriptableObjects](/images/image2.png#centered)
 
@@ -52,7 +71,7 @@ In this case, Tree2 will be hidden once the Tethered Animal is within 2 metres o
 Interpolations allow us to manipulate an Object of Interest or a particular setting across all of the trials in a sequence.
  - Uncheck the interpolate object setting, to switch it to interpolate options
 
-Select an Object of Interest, choose how you wish to manipulate it, select the range you wish to interpolate between and how you wish that interpolation to be calculated.
+Select an <abbr title="An object which acts as an independent variable due to the experimenter’s ability to alter various settings such as its position and behaviour. There can be none or many Objects of Interest within one trial and these objects will usually take the form of a plant, tree, prey, or predator familiar to the tethered animal.">Object of Interest</abbr>, choose how you wish to manipulate it, select the range you wish to interpolate between and how you wish that interpolation to be calculated.
 
 
 

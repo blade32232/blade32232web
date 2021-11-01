@@ -26,10 +26,9 @@ img[src*="#centered"] {
 
 # Terminology
 <hr>
-An alphabetical list of the terms used throughout this document
 
 ## Control Stimulus
-A <abbr title='stim'>stimulus</abbr> used to establish a baseline which can then be used to justify the inclusion or exclusion of an animal from the data set.
+A stimulus used to establish a baseline which can then be used to justify the inclusion or exclusion of an animal from the data set.
 
 ## Closed Loop
 Used to describe a system that allows for its current output to inform future input in a continued cycle.
@@ -44,10 +43,10 @@ Used to describe a system that allows for its current output to inform future in
 The stimulus shown to the tethered animal which plays before the first sequence is started and in between sequences in order to keep the tethered animal interested (keep it flying).</div>
 
 ## Interpolation
-A scriptable object which can be set to manipulate an OOI or setting across a series of trials. E.g. across all 6 trials make an object start 2m further away each trial.
+A <abbr title="A specific type of script (code) that is used to configure settings and store data in the Unity Editor, These scripts can then be accessed at runtime if required when the Tethered Flight Arena is active.">scriptable object</abbr> which can be set to manipulate an OOI or setting across a series of trials. E.g. across all 6 trials make an object start 2m further away each trial.
 
 ## Intervention
-A scriptable object which can be set to move, rotate, scale, hide or show an Object of Interest based on the proximity of the tethered animal’s avatar to an OOI, or after a duration of time has passed.
+A <abbr title="A specific type of script (code) that is used to configure settings and store data in the Unity Editor, These scripts can then be accessed at runtime if required when the Tethered Flight Arena is active.">scriptable object</abbr> which can be set to move, rotate, scale, hide or show an Object of Interest based on the proximity of the tethered animal’s avatar to an OOI, or after a duration of time has passed.
 
 ## Object of Interest (OOI)
 An object which acts as an independent variable due to the experimenter’s ability to alter various settings such as its position and behaviour. There can be none or many Objects of Interest within one trial and these objects will usually take the form of a plant, tree, prey, or predator familiar to the tethered animal.
@@ -62,7 +61,7 @@ A stimulus shown to the tethered animal after a trial, the stimulus can be set t
 A specific type of script (code) that is used to configure settings and store data in the Unity Editor, These scripts can then be accessed at runtime if required when the Tethered Flight Arena is active.
 
 ## Sequence
-A scriptable object which stores the settings for one sequence, e.g List of trials, Interpolations and the default stimulus.
+A <abbr title="A specific type of script (code) that is used to configure settings and store data in the Unity Editor, These scripts can then be accessed at runtime if required when the Tethered Flight Arena is active.">scriptable object</abbr> which stores the settings for one sequence, e.g List of trials, Interpolations and the default stimulus.
 
 ## Tethered Animal’s Avatar (Player Avatar)
 The virtual character which is used to represent the tethered animal within the virtual world. This avatar contains three virtual cameras which are used to display the virtual world from the avatar’s perspective onto the 3 screens surrounding the tethered animal.
@@ -71,7 +70,7 @@ The virtual character which is used to represent the tethered animal within the 
 The software described by this design document, built within the Unity Game Engine.
 
 ## Trial
-A scriptable object used to store the specific settings for one trial, e.g Scene, duration, start position, intervention, duration, completion condition, pre and post stimulus etc. 
+A <abbr title="A specific type of script (code) that is used to configure settings and store data in the Unity Editor, These scripts can then be accessed at runtime if required when the Tethered Flight Arena is active.">scriptable object</abbr> used to store the specific settings for one trial, e.g Scene, duration, start position, intervention, duration, completion condition, pre and post stimulus etc. 
 
 ## Unity Game Engine (Unity)
 A commonly used game development software which allows users to create virtual environments and manipulate them with scripts written in the C# programming language.

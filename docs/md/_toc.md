@@ -14,3 +14,4 @@
 > [Mechanics](/docs/systemdesign/mechanics)
 > [Stimuli](/docs/systemdesign/stimuli)
 > [Interface](/docs/systemdesign/interface)
+> [Extra Information](/docs/systemdesign/extrainformation)

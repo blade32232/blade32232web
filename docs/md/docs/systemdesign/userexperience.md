@@ -25,13 +25,7 @@ img[src*="#centered"] {
 </style>
 
 # User Experience
-
 <hr>
-
-## Objectives and Progression
-How does the experimenter and tethered animal move through the system, literally and figuratively, from start to finish? What are their short-term and long-term goals (explicit or implicit)? How do these support the system concept, style and experimenter’s goals?
-
-The experimenter relies on the user-interface in order to interact with and navigate through the system, from here they can achieve their short term goals of setting up an experiment and recording the results. Long-term they can collect large amounts of quality data and satisfy the requirements of their research.
 
 ## System Flow
 How does the system flow for the experimenter and tethered animal?

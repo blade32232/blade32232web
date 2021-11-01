@@ -7,7 +7,7 @@ img[src*="#centered"] {
     margin:auto;
     display:block;
     background: white;
-    width: 55%;
+    width: 75%;
     height: auto;
  }
  img[src*="#small"] {
@@ -64,11 +64,11 @@ A Dell Precision 3630 Tower, which includes a Nvidia RTX 3080 (10GB VRAM), 1TB o
 
 It is also necessary to create a custom rig to hold the tethered animal, camera and infrared lights in position.
 
-![Camera](../../images/Systemdesignimages/image10.png#centered)
+![Camera](../../images/Systemdesignimages/image10.png#invertedcenter)
 
 Figure 1: A top down view of the Tethered Flight Arena, it’s components and the flow of information.
 
-![Camera](../../images/Systemdesignimages/image9.png#centered)
+![Camera](../../images/Systemdesignimages/image9.png#invertedcenter)
 
 Figure 2: A side view showing the relative positions of the camera and infrared lights.
 
