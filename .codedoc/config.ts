@@ -17,11 +17,7 @@ export const config = /*#__PURE__*/configuration({
   page: {
     title: {
       base: 'Blade32232.github.io'        // --> the base title of your doc pages
-    },
-    stylesheets: [
-      <link rel="stylesheet" href="../.codedoc/components/stylesheets/styles.css"></link>
-
-    ],
+    }
   },
   misc: {
     github: {
