@@ -1,0 +1,23 @@
+img[src*="#centered"] {
+    margin:auto;
+    display:block;
+ }
+ img[src*="#invertedcenter"] {
+    margin:auto;
+    display:block;
+    background: white;
+    width: 55%;
+    height: auto;
+ }
+ img[src*="#small"] {
+    width: 250px;
+    height: auto;
+ }
+ div.centertext{
+    text-align:center;
+ }
+ abbr{
+    border: none;
+    text-decoration: none;
+    color: lightblue;
+}

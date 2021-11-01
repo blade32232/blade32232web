@@ -3,7 +3,11 @@ import { configuration, DefaultMarkdownCustomComponents} from '@codedoc/core';
 
 import { theme } from './theme';
 import { CenterImage } from './components/centerimage';      // --> import the card component itself
+import { StaticRenderer } from '@connectv/sdh';    // --> import a static renderer for easily creating the script elements
+import register from 'jsdom-global';               // --> also lets create a global document object for that purpose
 
+const renderer = new StaticRenderer();             // --> initialize renderer
+register();                                        // --> register global document object
 
 export const config = /*#__PURE__*/configuration({
   theme,                                  // --> add the theme. modify `./theme.ts` for changing the theme.
@@ -13,7 +17,11 @@ export const config = /*#__PURE__*/configuration({
   page: {
     title: {
       base: 'Blade32232.github.io'        // --> the base title of your doc pages
-    }
+    },
+    stylesheets: [
+      <link rel="stylesheet" href="../.codedoc/components/stylesheets/styles.css"></link>
+
+    ],
   },
   misc: {
     github: {

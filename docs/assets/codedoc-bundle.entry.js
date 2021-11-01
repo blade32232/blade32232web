@@ -14,16 +14,17 @@ import { tocHighlight } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade3223
 import { postNavSearch } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/page/toc/search/post-nav/index.js';postNavSearch();
 import { copyLineLinks } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/code/line-links/copy-line-link.js';copyLineLinks();
 import { gatherFootnotes } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/footnote/gather-footnotes.js';gatherFootnotes();
-import { ToCPrevNext } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/page/toc/prevnext/index.js';
+import { reloadOnChange } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/serve/reload.js';reloadOnChange();
 import { CollapseControl } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/collapse/collapse-control.js';
+import { ToCPrevNext } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/page/toc/prevnext/index.js';
 import { GithubSearch } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/misc/github/search.js';
 import { ToCToggle } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/darkmode/index.js';
 import { ConfigTransport } from 'C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/transport/config.js';
 
 const components = {
-  'y/Z0TkGUuy90rdYV0cdhQg==': ToCPrevNext,
   '/kqcZjlRRzc1ickjP7DYCg==': CollapseControl,
+  'y/Z0TkGUuy90rdYV0cdhQg==': ToCPrevNext,
   'HvP1vwP888Sdhuopqchp7w==': GithubSearch,
   'Vd2viD9554hXlsqM3Ax/yw==': ToCToggle,
   'E6CVdlySM0U/C7SmdHnYLw==': DarkModeSwitch,

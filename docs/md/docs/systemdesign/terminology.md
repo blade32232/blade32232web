@@ -1,10 +1,17 @@
+<!-- <style>
+abbr{
+    border: none;
+    text-decoration: none;
+    color: lightblue;
+}
+</style> -->
+
 # Terminology
 <hr>
-
 An alphabetical list of the terms used throughout this document
 
 ## Control Stimulus
-A stimulus used to establish a baseline which can then be used to justify the inclusion or exclusion of an animal from the data set.
+A <abbr title='stim'>stimulus</abbr> used to establish a baseline which can then be used to justify the inclusion or exclusion of an animal from the data set.
 
 ## Closed Loop
 Used to describe a system that allows for its current output to inform future input in a continued cycle.
@@ -16,7 +23,7 @@ Used to describe a system that allows for its current output to inform future in
 [DeepLabCut-Live](http://www.mackenziemathislab.org/deeplabcut) - An open source software tool that uses a model trained by DeepLabCut to perform markerless pose estimation in real-time (frame by frame) on a pre-recorded or live video stream.
 
 ## Default Stimulus
-The stimulus which plays before the first sequence is started and in between sequences in order to keep the tethered animal interested (keep it flying).
+The stimulus shown to the tethered animal which plays before the first sequence is started and in between sequences in order to keep the tethered animal interested (keep it flying).</div>
 
 ## Interpolation
 A scriptable object which can be set to manipulate an OOI or setting across a series of trials. E.g. across all 6 trials make an object start 2m further away each trial.
