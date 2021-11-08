@@ -29,18 +29,20 @@ img[src*="#centered"] {
 <hr>
 
 ## System Concept
-Brief overview of the System, what it does and its goals.
 
-The Tethered Flight Arena makes use of DeepLabCut-live to perform markerless pose estimation in order to capture the movements of a tethered animal (wing beat amplitude, head yaw and roll). This information is then sent via a socket into another program known as the Unity Game Engine. Here, calculations are performed on the data which is then used to manipulate the tethered animal’s avatar within the virtual environment (stimulus). These changes to the virtual environment are then displayed to the tethered animal via 3 screens in near real time forming what is known as a closed loop.
+The Tethered Flight Arena makes use of DeepLabCut-live to perform markerless pose estimation in order to capture the movements of a tethered animal (wing beat amplitude, head yaw and roll). This information is then sent via a socket into another program known as Unity. Here, calculations are performed on the data by the CAVE software which is then used to manipulate the tethered animal’s avatar within the scene. These changes or updates to the animal’s position within the scene are presented as a stimulus to the tethered animal via 3 screens forming what is known as a closed loop.
 
 Successfully closing the loop in such a way will allow for an increased understanding of the tethered animal’s behaviour and decision making as well as their ability to visually detect and target objects within the virtual environment, such as flora, predators and prey. 
 
+
 ## Physical Setup
 
-The Tethered Flight Arena requires a variety of hardware in order to function properly, it is also likely that the physical setup will need to vary based on which species of animal is being studied. As such, this section is based on the requirements studying the behaviour of an Eristalis Tenax hoverfly as an example. 
+The Tethered Flight Arena shown below in Figure 1, requires a variety of hardware in order to function properly, it is also likely that the physical setup will need to vary based on which species of animal is being studied. As such, this section is based on the requirements for studying the behaviour of an Eristalis Tenax hoverfly as an example. 
 
 
 ![Camera](../../images/Systemdesignimages/image12.jpg#centered)
+
+<div class="centertext">Figure 1: An image of the Tethered Flight Arena.</div>
 
 **Specifications:**
 
@@ -66,44 +68,47 @@ It is also necessary to create a custom rig to hold the tethered animal, camera 
 
 ![Camera](../../images/Systemdesignimages/image10.png#invertedcenter)
 
-Figure 1: A top down view of the Tethered Flight Arena, it’s components and the flow of information.
+<div class="centertext">Figure 2: A top down view of the Tethered Flight Arena, it’s components and the flow of information.</div>
 
 ![Camera](../../images/Systemdesignimages/image9.png#invertedcenter)
 
-Figure 2: A side view showing the relative positions of the camera and infrared lights.
+<div class="centertext">Figure 3: A side view showing the relative positions of the camera and infrared lights.</div>
 
 
 ## Target Audience
-Motivations and relevant interests; if this product was released, who would be interested and what would they use it for, e.g.  research field, research questions etc.
 
-The target audience for this product are the current and future researchers who are attempting to understand the behaviour of tetherable animals which respond to visual stimuli (screens) and whose physical movements can be tracked using DLC-live. Through this system researchers will be able to show various types of stimuli in a 3D world setting and record the tethered animal’s physical responses during closed loop experimentation. This is especially appealing in virtual environments as it will give the researchers complete control over the scene and the objects in it. 
+The target audience for this product are the current and future researchers who are attempting to understand the behaviour of tetherable animals which respond to visual stimuli (screens) and whose physical movements can be tracked using DLC-live. Through this system researchers will be able to show various types of stimuli in a 3D environment and record the tethered animal’s physical responses during closed loop experimentation. This is especially appealing in virtual environments as it will give the researchers complete control over the scene and the objects in it. 
 
 While this product is not necessarily targeted at the tethered animals themselves, steps must be taken to ensure that the experience they have is as close to life-like as possible. This should result in less error and fewer results which do not match the real world behaviour for such animals. 
 
 ## Genre(s)
-Single genre is clearer but often less interesting. Genre combinations are risky. Beware of ‘tired’ genres.
 
 Tethered Flight, Exploration, Research
 
 
 ## System Flow Summary
-How does the experimenter and tethered animal move through the system?
 
-When using the Tethered Flight Arena software, the experimenter will start a sequence by opening the main menu scene. From here they can select the sequence manager in the hierarchy and load the sequence they wish to run. Now the user can press the unity “Play” button in order to start the runtime and place the user at the main menu.
+When using the CAVE software, the experimenter will start a sequence by opening the main menu scene. From here they can select the sequence manager in the hierarchy and load the sequence they wish to run. Now the user can press the unity “Play” button in order to start the runtime and place the user at the main menu shown below in Figure 4.
+
+Figure 4: Main menu of the CAVE software, only active once the MainMenu scene is run.
 
 From the main menu they can start a new sequence or replay a previous trial. If starting a new sequence the experimenter can also provide the sex of the tethered animal as well as a unique number. This information is used to provide the correct gain values and help identify the saved data for this specific animal. 
 
 After a sequence is complete the system will play the default stimulus as chosen by the experimenter, this stimulus will continue to play until the user clicks the start next sequence button. Upon finishing the last sequence the runtime will automatically end, to start it again the user only needs to press the unity “Play” button. 
 
-In order to create and edit system settings (Gain, Framerate, Save filepath), sequences, and trials the user must make use of the scriptable objects present in the Unity project. The Tethered Flight Arena user manual discusses how to use these scriptable objects in detail.
+In order to create and edit system settings (Gain, Framerate, Save filepath), sequences, and trials the user must make use of the scriptable objects present in the Unity project. The CAVE user manual discusses how to use these scriptable objects in detail.
+
+![Camera](../../images/Systemdesignimages/cave.png#invertedcenter)
 
 ## Look and Feel
-What is the basic look and feel of the system? What is the visual style? 
-
-The Tethered Flight Arena will prioritise temporal performance (run on 3 monitors at 165 Hz) over spatial resolution (realistic visuals). By using objects with simplified geometry (low polygon count) the experimenter can present what they want the tethered animal to see in satisfactory detail while still allowing for the best possible performance.
+The CAVE software will prioritise temporal performance (run on 3 monitors at 165 Hz) over spatial resolution (realistic visuals). By using objects with simplified geometry (low polygon count) as shown in Figure 5, the experimenter can present what they want the tethered animal to see in satisfactory detail while still allowing for the best possible performance.
 
 As the animal being used as a template by this system (Eristalis Tenax) has fast photoreceptors, a high refresh rate (165 Hz) is necessary to provide an appropriate stimulus. Other animals may not require such a fast refresh rate allowing for more detailed scenes as well as less intensive hardware.
 
 ![Camera](../../images/Systemdesignimages/image8.png#centered)
+
+<div class="centertext">Figure 5: An image from the tethered animal’s perspective (centre screen only).</div>
+
+
 
 > :ToCPrevNext

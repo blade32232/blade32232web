@@ -78,4 +78,7 @@ A commonly used game development software which allows users to create virtual e
 ## Wing Beat Amplitude Difference (WBAD)
 The angle of the left wing’s amplitude minus the angle of the right wing’s amplitude, this provides the direction or heading of the tethered animal as it travels through the scene.
 
+## Wing Beat Amplitude Sum (WBAS)
+The left wing’s amplitude plus the right wing’s amplitude, WBAS is used when calculating the thrust gain of the tethered animal.
+
 > :ToCPrevNext

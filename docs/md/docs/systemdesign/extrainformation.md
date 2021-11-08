@@ -28,59 +28,54 @@ img[src*="#centered"] {
 <hr>
 
 ## Unique Selling Points
-Critically important. What makes your system stand out? How is it different from all other systems?
 
 The combination of using DLC-live to track the behavior of a tethered animal and Unity to interpret this data and use it to drive a stimulus is a unique and robust solution. In theory this combination of software could allow for the behaviour of almost any tetherable animal to be monitored in a completely controlled virtual environment. This should provide researchers with an invaluable tool to study animal behaviour.
 
 ## Player Experience and POV
-What species is the tethered animal? What is the setting? What is the experience granted to the tethered animal? What stimulus excites the tethered animal for the duration of the experiment?
 
-The tethered animal will be suspended from a tether that will be attached to their back, they will be surrounded on all sides by up to three screens, one in front and one on each side. Depending on the tethered animal they may be able to see all three screens at the same, others might require head movement to see more than one fullscreen and parts of the other two screens.
-
-## Visual Style
-What is the “look and feel” of the system? How does this support the desired player’s experience? What concept art or reference art can you show to give the feel of the system?
-
-## Look and feel
-Minimalistic yet realistic world
-Performance
-Visual acuity
+The system is being designed around the Eristalis Tenax hoverfly, this animal will be suspended from a tether attached to their thorax, they will be surrounded on all sides by three screens, one in front and one on each side. These stimulus screens will be used to show various stimuli and produce a variety of behaviours from the tethered animal.
 
 ## Platform(s), Technology and Scope
-PC or mobile? Table or phone? 2D or 3D? Unity or Javascript? How long to make, and how big a team? How long until complete? How long will it take to complete the system? Major risks?
 
 This system is developed for an Ubuntu PC but should work on any system that can run DLC-live and Unity as it is driven by the combination of these products. The development for this project will continue to be ongoing for the foreseeable future with a small development team, it is expected to be usable within 3-6 months (September-December 2021). 
 
 
-
-
-
-## Core Loops
-How do the experimenter’s actions form loops? Why is this effective? How does this support the experiment goals? What emergent results do you expect/hope to see? 
-one fly
-control stimuli
-play a sequence, which each contain several different or identical trials (1-N)
-	start and stop of each trial (end point, duration, skip)
-next sequence
-then control stimuli
-play a sequence, which each contain several different or identical trials (1-N)
-next sequence
-control stimuli
-
 ## Internal Systems
-What systems are needed to make this product? Which ones are internal (simulation, etc.) and which does the player interact with?
 
-Converting the raw DLC-live data collected from the tethered animal (movements) into player movements within the virtual world (stimulus). 
+### Scripts
 
-Allowing the player to Thrust and Yaw dynamically based on wing beat amplitude sum and wing beat amplitude difference. 
+| Name | Role |
+| --- | ----------- |
+| DataProcessor | Converts the packets received by the UDPServer into wing beat angles. |
+| DefaultStimulusController | Moves the default scene as specified by the provided default stimulus Scriptable Object. |
+| Enum_Storage | A file that stores all the public enum’s that are used within the project. |
+| FrameLimiter | A script that can optionally be used by the Settings Manager as an alternative way to limit the number of frames. |
+| ObjectOfInterest | This script holds a unique ID that allows other scripts to search for it within the scene. |
+| TetheredAnimalController | Moves the tethered animal based on its configured settings and input from the DataProcessor. |
+| UDPServer | Receives packets from DLC-live and passes them through to the DataProcessor. |
+| CreateStimulusScreens | Initialises and moves the stimulus screens into place. |
+| Directory_Manager | Organises the folder structure where all data is saved. |
+| Interventions_Manager | Keeps track of active interventions and triggers them when they meet their criteria. |
+| Objects_Of_Interest_Manager | Keeps track of all the Objects of Interest within the scene and can be used to find them via their ID. |
+| Replay_Manager | Loads previously saved data so that it can be used for replay. |
+| Sequence_Manager | Passes the appropriate Trial to the Trial_Manager and determines what happens when the sequence is finished. |
+| Settings_Manager | Applies the settings provided by the chosen Settings_Profile. |
+| Stimulus_Manager | Activates and deactivates stimulus when asked to by the other scripts. |
+| Trial_Manager | Loads the Trial provided by the Sequence_Manager, and passes on the active interventions and interpolations to the other managers. |
+| Sequence_Manager | Allows the user to interact with the software through the CAVE user interface. |
 
-Some mechanism to save the input, stimulus, and tethered animals behaviour frame by frame so that the entire experiment can be replayed exactly as it occurred and reanalysed.
+### Scriptible Objects
 
-A Sequence Manager responsible for playing one or more trials in succession and allowing the user to edit the settings for each individual trail and save the entire sequence. 
-
-A Directory Manager responsible for the storing and loading of files from within the designated file-path.
-
-A Settings Manager responsive for the loading and saving of profiles, as well as distributing these values to where they are needed.
-
+| Name | Role |
+| --- | ----------- |
+| DefaultStimulus | Choose between 2D stimulus or a 3D scene and apply various settings to either. |
+| Interpolation | Manipulate the starting values of an object or setting across all trials within a sequence. |
+| Intervention | Manipulate an object in a variety of ways during a trial. |
+| Object_Of_Interest | Provides the ID of the object you wish to manipulate. |
+| Objects_Of_Interest_Parent | Provides the ID of the object you wish to manipulate. |
+| Sequence | Provides a list of trials and the order they should be performed in. |
+| Settings_Profile | Configures various project settings such as frame rate and the name of your personal folder. |
+| Trial | Pick the scene, completion type, pre stimulus and various other settings for an individual trial. |
 
 
 ## Interactivity
