@@ -22,6 +22,9 @@ img[src*="#centered"] {
     text-decoration: none;
     color: lightblue;
 }
+h1{
+   text-align:center;
+}
 </style>
 
 # Terminology
@@ -40,13 +43,13 @@ Used to describe a system that allows for its current output to inform future in
 [DeepLabCut-Live](http://www.mackenziemathislab.org/deeplabcut) - An open source software tool that uses a model trained by DeepLabCut to perform markerless pose estimation in real-time (frame by frame) on a pre-recorded or live video stream.
 
 ## Default Stimulus
-The stimulus shown to the tethered animal which plays before the first sequence is started and in between sequences in order to keep the tethered animal interested (keep it flying).</div>
+The stimulus which plays before the first sequence is started and in between sequences in order to keep the tethered animal interested (keep it flying).
 
 ## Interpolation
 A <abbr title="A specific type of script (code) that is used to configure settings and store data in the Unity Editor, These scripts can then be accessed at runtime if required when the Tethered Flight Arena is active.">scriptable object</abbr> which can be set to manipulate an OOI or setting across a series of trials. E.g. across all 6 trials make an object start 2m further away each trial.
 
 ## Intervention
-A <abbr title="A specific type of script (code) that is used to configure settings and store data in the Unity Editor, These scripts can then be accessed at runtime if required when the Tethered Flight Arena is active.">scriptable object</abbr> which can be set to move, rotate, scale, hide or show an Object of Interest based on the proximity of the tethered animal’s avatar to an OOI, or after a duration of time has passed.
+A scriptable object which can be set to move, rotate, scale, hide or show an Object of Interest based on the proximity of the tethered animal’s avatar to an OOI, or after a duration of time has passed.
 
 ## Object of Interest (OOI)
 An object which acts as an independent variable due to the experimenter’s ability to alter various settings such as its position and behaviour. There can be none or many Objects of Interest within one trial and these objects will usually take the form of a plant, tree, prey, or predator familiar to the tethered animal.
@@ -61,24 +64,27 @@ A stimulus shown to the tethered animal after a trial, the stimulus can be set t
 A specific type of script (code) that is used to configure settings and store data in the Unity Editor, These scripts can then be accessed at runtime if required when the Tethered Flight Arena is active.
 
 ## Sequence
-A <abbr title="A specific type of script (code) that is used to configure settings and store data in the Unity Editor, These scripts can then be accessed at runtime if required when the Tethered Flight Arena is active.">scriptable object</abbr> which stores the settings for one sequence, e.g List of trials, Interpolations and the default stimulus.
+A scriptable object which stores the settings for one sequence, e.g List of trials, Interpolations and the default stimulus.
 
 ## Tethered Animal’s Avatar (Player Avatar)
-The virtual character which is used to represent the tethered animal within the virtual world. This avatar contains three virtual cameras which are used to display the virtual world from the avatar’s perspective onto the 3 screens surrounding the tethered animal.
+The virtual character which is used to represent the tethered animal within the virtual environment. This avatar contains three virtual cameras which are used to display the virtual environment from the avatar’s perspective onto the 3 screens surrounding the tethered animal.
 
 ## Tethered Flight Arena (TFA) 
-The software described by this design document, built within the Unity Game Engine.
+A name for the physical setup and accompanying software used to present an interactable virtual environment to a tethered animal.
 
 ## Trial
-A <abbr title="A specific type of script (code) that is used to configure settings and store data in the Unity Editor, These scripts can then be accessed at runtime if required when the Tethered Flight Arena is active.">scriptable object</abbr> used to store the specific settings for one trial, e.g Scene, duration, start position, intervention, duration, completion condition, pre and post stimulus etc. 
+A scriptable object used to store the specific settings for one trial, e.g Scene, duration, start position, intervention, duration, completion condition, pre and post stimulus etc. 
+
+## Virtual Environment (Scene)
+This describes the visual surroundings and objects presented to the tethered animal by Unity.
 
 ## Unity Game Engine (Unity)
-A commonly used game development software which allows users to create virtual environments and manipulate them with scripts written in the C# programming language.
+A commonly used real-time development software which allows users to create virtual environments and manipulate them with scripts written in the C# programming language.
 
 ## Wing Beat Amplitude Difference (WBAD)
-The angle of the left wing’s amplitude minus the angle of the right wing’s amplitude, this provides the direction or heading of the tethered animal as it travels through the scene.
+The left wing’s amplitude minus the right wing’s amplitude, WBAD is used when calculating the yaw gain of the tethered animal.
 
 ## Wing Beat Amplitude Sum (WBAS)
-The left wing’s amplitude plus the right wing’s amplitude, WBAS is used when calculating the thrust gain of the tethered animal.
+The left wing’s amplitude plus the right wing’s amplitude, WBAS is used when calculating the thrust gain of the tethered animal..
 
 > :ToCPrevNext

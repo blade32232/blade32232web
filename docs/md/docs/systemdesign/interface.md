@@ -30,6 +30,9 @@ img[src*="#centered"] {
     text-decoration: none;
     color: lightblue;
 }
+h1{
+   text-align:center;
+}
 </style>
 
 # Interface
@@ -47,13 +50,13 @@ Aside from starting a sequence the user can choose to load a replay, this can be
 - Menus
 - Camera Model
 
-Main Menu
+<div class="centertext">Main Menu</div>
+
 ![MainMenu](../../images/Systemdesignimages/cave.png#centered) 
 
-Stimulus Screen
+<div class="centertext">Stimulus Screen</div>
+
 ![StimulusScreen](../../images/Systemdesignimages/image14.png#centered) 
-
-
 
 <div class="centertext">POV of Tethered Animal</div>
 <p style="text-align:center;">
@@ -74,10 +77,5 @@ The tethered animal interacts with the system through a camera mounted above the
 
 ![StimulusScreen](../../images/Systemdesignimages/image7.png#invertedcenter) 
 <div class="centertext">Figure 13: A diagram showing how wing beat amplitude is tracked and calculated, the resulting WBAD shown in this figure is 65.</div>
-
-## Help System
-
-At this stage help is only provided in the form of documentation found here – (HacknPlan / GoogleDrive link / Github)
-
 
 > :ToCPrevNext

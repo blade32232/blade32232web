@@ -22,6 +22,9 @@ img[src*="#centered"] {
     text-decoration: none;
     color: lightblue;
 }
+h1{
+   text-align:center;
+}
 </style>
 
 # Mechanics
@@ -85,9 +88,5 @@ The tethered animal can control its heading and speed within the virtual environ
 ## Replaying and Saving
 
 Once a trial has finished and the data associated with it is saved the user will be able to play-back the entire trial using the replay system. This is done by pressing the load replay button on the main menu, from here you will be asked to navigate to the trial’s folder. Once the folder is selected the system will then load the position and rotation of each Object of Interest within the trial as well as the system, sequence and trial settings saved within these files. After the files are loaded you will be presented with the start replay button, once clicked the system will begin the replay.
-
-![SampleScene](../../images/Systemdesignimages/sidebyside.png#centered)
-
-<div class="centertext">Figure 10: Image of low fidelity high performance scene.</div>
 
 > :ToCPrevNext

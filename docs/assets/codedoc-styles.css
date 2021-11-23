@@ -71,11 +71,11 @@
     transition: color .15s;
   }
   body.dark .collapse-0-0-3>.label:hover {
-    color: #1eb2a6;
+    color: #00aaff;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .collapse-0-0-3>.label:hover {
-    color: #1eb2a6;
+    color: #00aaff;
   }
 }
   body.dark-mode-animate .collapse-0-0-3>.label .icon-font {
@@ -303,7 +303,7 @@
     color: #eeeeee;
   }
   body:not(.dark-mode-animate) .contentnav-0-0-9 a:hover, body:not(.dark-mode-animate) .contentnav-0-0-9 a.active {
-    color: #1eb2a6;
+    color: #00aaff;
   }
 }
   body.dark .contentnav-0-0-9 {
@@ -313,7 +313,7 @@
     color: #eeeeee;
   }
   body.dark .contentnav-0-0-9 a:hover, body.dark .contentnav-0-0-9 a.active {
-    color: #1eb2a6;
+    color: #00aaff;
   }
   body.dark-mode-animate .contentnav-0-0-9 a {
     transition: color .3s, opacity .3s;
@@ -367,11 +367,11 @@ body.dark-mode-animate a {
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) a {
-    color: #1eb2a6;
+    color: #00aaff;
   }
 }
 body.dark a {
-  color: #1eb2a6;
+  color: #00aaff;
 }
 .container {
   margin: 0 auto;

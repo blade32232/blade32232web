@@ -22,6 +22,12 @@ img[src*="#centered"] {
     text-decoration: none;
     color: lightblue;
 }
+h1{
+   text-align:center;
+}
+h1{
+   text-align:center;
+}
 </style>
 
 # Tethered Flight Arena - User Manual

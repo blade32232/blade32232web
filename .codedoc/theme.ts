@@ -6,6 +6,6 @@ export const theme = /*#__PURE__*/createTheme({
     primary: '#1eb2a6'
   },
   dark: {
-    primary: '#1eb2a6'
+    primary: '#00aaff'
   }
 });

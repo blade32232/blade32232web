@@ -15,3 +15,9 @@
 > [Stimuli](/docs/systemdesign/stimuli)
 > [Interface](/docs/systemdesign/interface)
 > [Extra Information](/docs/systemdesign/extrainformation)
+
+> :Collapse label=Tethered Flight Arena - Flyfly
+>
+> [Installation](/docs/flyfly/installation)
+> [Window Menus](/docs/flyfly/windowmenus)
+> [Stimuli](/docs/flyfly/stimuli)

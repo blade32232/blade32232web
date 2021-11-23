@@ -3,6 +3,9 @@ img[src*="#centered"] {
    margin:auto;
    display:block;
 }
+h1{
+   text-align:center;
+}
 </style>
 
 # Tethered Flight Arena - User Manual

@@ -22,6 +22,9 @@ img[src*="#centered"] {
     text-decoration: none;
     color: lightblue;
 }
+h1{
+   text-align:center;
+}
 </style>
 
 # System Overview
