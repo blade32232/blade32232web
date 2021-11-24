@@ -17,6 +17,11 @@ img[src*="#centered"] {
  div.centertext{
     text-align:center;
  }
+  div
+ {
+   text-align: justify;
+   text-justify: inter-word;
+ }
  abbr{
     border: none;
     text-decoration: none;

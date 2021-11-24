@@ -3,6 +3,11 @@ img[src*="#centered"] {
     margin:auto;
     display:block;
  }
+  div
+ {
+   text-align: justify;
+   text-justify: inter-word;
+ }
  img[src*="#invertedcenter"] {
     margin:auto;
     display:block;

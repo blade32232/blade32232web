@@ -6,6 +6,11 @@ img[src*="#centered"] {
 h1{
    text-align:center;
 }
+ div
+ {
+   text-align: justify;
+   text-justify: inter-word;
+ }
 </style>
 
 # Tethered Flight Arena - User Manual

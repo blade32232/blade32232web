@@ -3,6 +3,11 @@ img[src*="#centered"] {
     margin:auto;
     display:block;
  }
+  div
+ {
+   text-align: justify;
+   text-justify: inter-word;
+ }
  img[src*="#invertedcenter"] {
     margin:auto;
     display:block;
@@ -59,5 +64,13 @@ This page will document how to make use of the Tethered Flight Arena Software bu
 > [Interface](/docs/systemdesign/interface)
 >
 > [Extra Information](/docs/systemdesign/extrainformation)
+
+> :Collapse label=Tethered Flight Arena - Flyfly
+>
+> [Installation](/docs/flyfly/installation)
+>
+> [Window Menus](/docs/flyfly/windowmenus)
+>
+> [Stimuli](/docs/flyfly/stimuli)
 
 > :ToCPrevNext

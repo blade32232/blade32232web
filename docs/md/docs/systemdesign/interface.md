@@ -10,6 +10,11 @@ img[src*="#centered"] {
     width: 55%;
     height: auto;
  }
+  div
+ {
+   text-align: justify;
+   text-justify: inter-word;
+ }
  img[src*="#small"] {
     width: 250px;
     height: auto;
