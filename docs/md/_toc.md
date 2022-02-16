@@ -1,12 +1,13 @@
 [Home](/)
-> :Collapse label=Tethered Flight Arena - User Manual
+> :Collapse label=CAVE - User Manual
 >
 > [Settings](/docs/usermanual/settings)
 > [Workflow](/docs/usermanual/workflow)
 > [Data Colletion](/docs/usermanual/datacollection)
 > [Scriptable Objects](/docs/usermanual/scriptableobjects)
+> [OOI Managgement](/docs/usermanual/ooimanagement)
 
-> :Collapse label=Tethered Flight Arena - System Design
+> :Collapse label=CAVE - System Design
 >
 > [Terminology](/docs/systemdesign/terminology)
 > [System Overview](/docs/systemdesign/systemoverview)
@@ -16,7 +17,7 @@
 > [Interface](/docs/systemdesign/interface)
 > [Extra Information](/docs/systemdesign/extrainformation)
 
-> :Collapse label=Tethered Flight Arena - Flyfly
+> :Collapse label=CAVE - Flyfly
 >
 > [Installation](/docs/flyfly/installation)
 > [Window Menus](/docs/flyfly/windowmenus)

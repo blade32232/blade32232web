@@ -32,11 +32,11 @@ h1{
 }
 </style>
 
-# Tethered Flight Arena - User Manual
+# CAVE - User Manual
 
 # Workflow
 
-Starting a Sequence
+## Starting a Sequence
 
 In order to start a sequence, first make sure that you have loaded the “MainMenu” Scene. It is important to start from this scene as it creates vital managers which control most of what happens within the software. 
 

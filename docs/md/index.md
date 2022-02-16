@@ -32,13 +32,13 @@ h1{
 }
 </style>
 
-# Tethered Flight Arena
+# Tethered Flight Arena / CAVE
 
-This page will document how to make use of the Tethered Flight Arena Software built on <abbr title="A commonly used game development software which allows users to create virtual environments and manipulate them with scripts written in the C# programming language.">Unity</abbr>, using <abbr title="An open source software tool that utilises markerless pose estimation powered by machine learning. Using this software we train a model that can be used by DeepLabCut-Live to track several points on the tethered animal’s body in real-time.">DeepLabCut</abbr> for pose-estimation
+This page will document how to make use of the Tethered Flight Arena (CAVE) Software built on <abbr title="A commonly used game development software which allows users to create virtual environments and manipulate them with scripts written in the C# programming language.">Unity</abbr>, using <abbr title="An open source software tool that utilises markerless pose estimation powered by machine learning. Using this software we train a model that can be used by DeepLabCut-Live to track several points on the tethered animal’s body in real-time.">DeepLabCut</abbr> for pose-estimation
 
 ## Table of Contents
 
-> :Collapse label=Tethered Flight Arena - User Manual
+> :Collapse label=CAVE - User Manual
 >
 > [Settings](/docs/usermanual/settings)
 >
@@ -47,9 +47,10 @@ This page will document how to make use of the Tethered Flight Arena Software bu
 > [Data Colletion](/docs/usermanual/datacollection)
 >
 > [Scriptable Objects](/docs/usermanual/scriptableobjects)
+>
+> [OOI Managgement](/docs/usermanual/ooimanagement)
 
-
-> :Collapse label=Tethered Flight Arena - System Design
+> :Collapse label=CAVE - System Design
 >
 > [Terminology](/docs/systemdesign/terminology)
 >
@@ -65,7 +66,7 @@ This page will document how to make use of the Tethered Flight Arena Software bu
 >
 > [Extra Information](/docs/systemdesign/extrainformation)
 
-> :Collapse label=Tethered Flight Arena - Flyfly
+> :Collapse label=CAVE - Flyfly
 >
 > [Installation](/docs/flyfly/installation)
 >

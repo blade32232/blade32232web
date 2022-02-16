@@ -32,7 +32,7 @@ h1{
  }
 </style>
 
-# Tethered Flight Arena - User Manual
+# CAVE - User Manual
 
 # Scriptable Objects
 
