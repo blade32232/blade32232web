@@ -17,8 +17,14 @@
 > [Interface](/docs/systemdesign/interface)
 > [Extra Information](/docs/systemdesign/extrainformation)
 
-> :Collapse label=CAVE - Flyfly
+> :Collapse label=TFA - Flyfly
 >
 > [Installation](/docs/flyfly/installation)
 > [Window Menus](/docs/flyfly/windowmenus)
 > [Stimuli](/docs/flyfly/stimuli)
+
+> :Collapse label=Hoverfly Motion Vision Lab
+
+> [About Us](/docs/About)
+> [Papers](/docs/Papers)
+> [Videos](/docs/Videos)

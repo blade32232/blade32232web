@@ -34,7 +34,7 @@ h1{
 
 # Tethered Flight Arena / CAVE
 
-This page will document how to make use of the Tethered Flight Arena (CAVE) Software built on <abbr title="A commonly used game development software which allows users to create virtual environments and manipulate them with scripts written in the C# programming language.">Unity</abbr>, using <abbr title="An open source software tool that utilises markerless pose estimation powered by machine learning. Using this software we train a model that can be used by DeepLabCut-Live to track several points on the tethered animal’s body in real-time.">DeepLabCut</abbr> for pose-estimation
+This wiki will document how to make use of the Tethered Flight Arena (CAVE) Software built on <abbr title="A commonly used game development software which allows users to create virtual environments and manipulate them with scripts written in the C# programming language.">Unity</abbr>, using <abbr title="An open source software tool that utilises markerless pose estimation powered by machine learning. Using this software we train a model that can be used by DeepLabCut-Live to track several points on the tethered animal’s body in real-time.">DeepLabCut</abbr> for pose-estimation. Also included are instructions for FlyFly, the open-loop stimulus software.
 
 ## Table of Contents
 
@@ -66,7 +66,7 @@ This page will document how to make use of the Tethered Flight Arena (CAVE) Soft
 >
 > [Extra Information](/docs/systemdesign/extrainformation)
 
-> :Collapse label=CAVE - Flyfly
+> :Collapse label=TFA - Flyfly
 >
 > [Installation](/docs/flyfly/installation)
 >
@@ -74,4 +74,14 @@ This page will document how to make use of the Tethered Flight Arena (CAVE) Soft
 >
 > [Stimuli](/docs/flyfly/stimuli)
 
+> :Collapse label=Hoverfly Motion Vision Lab
+>
+> [About Us](/docs/About)
+>
+> [Papers](/docs/Papers)
+>
+> [Videos](/docs/Videos)
+
 > :ToCPrevNext
+
+<iframe style="border-radius: 10px;" height="620" data-tweet-url="https://twitter.com/HoverflyLab" src="data:text/html;data-theme=%22dark%22;charset=utf-8,%3Ca%20class%3D%22twitter-timeline%22%20href%3D%22https%3A//twitter.com/HoverflyLab%3Fref_src%3Dtwsrc%255Etfw%22%3ETweets%20by%20HoverflyLab%3C/a%3E%0A%3Cscript%20async%20src%3D%22https%3A//platform.twitter.com/widgets.js%22%20charset%3D%22utf-8%22%3E%3C/script%3E%0A"></iframe>
