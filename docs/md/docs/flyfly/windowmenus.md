@@ -52,7 +52,7 @@ We usually run our stimulus computer with at least 2 screens. One is a high reso
 
 If you are running a three screen setup and you are using three 2650x1440 screens rotated 90 degrees the height of the ‘screen’ should be 4320 and width should be 2560*. Set the fly position exactly in the centre of the screen, use the set fly position button to get an approximate position and then fine tune the position. Make sure the distance from the monitor is correct and that the Monitor height is set based on the width of the screen and not the height, i.e., if you are using three ASUS pg279qe rotated 90 degrees the height of the monitor will be 60cm.
 
-<sup>*Originally we used 4319 by 2559 but as of 15/03/2022 it was noticed this causes screen tearing with high frequency stimulus as ubuntu does give full control to flyfly on a partial screen. Instead use 4320 by 2560 or full screen settings in flyfly.</sup>
+<sup>*Originally we used 4319 by 2559 but as of 15/03/2022 it was noticed this causes screen tearing with high frequency stimulus as ubuntu doesn't give full control to flyfly on a partial screen. Instead use 4320 by 2560 or full screen settings in flyfly.</sup>
 
 DLP mode should be used if you are using a DLP projector with the color wheel removed. In this case the R-G-B screens are offset slightly from each other, so PsychToolbox thinks that the stimulus is running at e.g. 120 Hz, but you actually generate greyscale 360 Hz motion from your projector. This feature has not been actively used since 2009, so could be buggy.
 
