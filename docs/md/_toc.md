@@ -24,7 +24,7 @@
 > [Stimuli](/docs/flyfly/stimuli)
 
 > :Collapse label=Hoverfly Motion Vision Lab
-
+>
 > [About Us](/docs/About)
 > [Papers](/docs/Papers)
 > [Videos](/docs/Videos)
