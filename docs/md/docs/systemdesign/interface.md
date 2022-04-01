@@ -47,13 +47,9 @@ h1{
 
 As the CAVE software exists within the Unity project the user will need to load the MainMenu scene and use the Unity “Play” button to access the CAVE user interface.
 
-This interface is simple in design as shown in Figure 11, the main menu allows the user to input some basic information about their session e.g. the sex of the animal, they will then be able to use the “Start Sequence” button to present the sequences provided to the Sequence_Manager one after the other. Once a sequence has begun and trials are being displayed the stimulus screen will show some basic information about the current trial. From this screen the user will be able to skip the current trial or stop the entire process.
+This interface is simple in design as shown in Figure 11. The main menu allows the user to input some basic information about their session, e.g. the sex of the animal (‘N/A’, figure 11). They will be able to use the “Start Sequence” button to present the sequences provided to the Sequence_Manager one after the other. Once a sequence has begun and trials are being displayed, the stimulus screen will show some basic information about the current trial. From this screen the user will be able to skip the current trial or stop the entire process.
 
-Aside from starting a sequence the user can choose to load a replay, this can be used to load a previous trial that has been saved. Simply navigate to the trial’s folder when prompted and then click the start replay button after it is presented. 
-
-- HUD
-- Menus
-- Camera Model
+Aside from starting a sequence the user can choose to load a replay. This can be used to load and play back a previous trial that has been saved. Simply navigate to the trial’s folder when prompted and then click the start replay button. 
 
 <div class="centertext">Main Menu</div>
 
@@ -63,6 +59,10 @@ Aside from starting a sequence the user can choose to load a replay, this can be
 
 ![StimulusScreen](../../images/Systemdesignimages/image14.png#centered) 
 
+<div class="centertext"><sup><i>Figure 13: The Cave main menu and stimulus screen user interface.</i></sup></div>
+
+During a trial the tethered animal will be presented with a stimulus of the chosen virtual environment (scene). This scene will cover 360 degrees of the visual field displayed across the 3 screens surrounding the tethered animal (Figure 14).
+
 <div class="centertext">POV of Tethered Animal</div>
 <p style="text-align:center;">
  <span style="float:left;">Left Screen</span> 
@@ -71,7 +71,7 @@ Aside from starting a sequence the user can choose to load a replay, this can be
 </p>
 
 ![POVScreen](../../images/Systemdesignimages/pov.png#full)
-<div class="centertext">Figure 12: A scene being displayed in its entirety across 3 screens such that each screen contains 120 degrees of the scenes horizontal axis. </div>
+<div class="centertext"><sup><i>Figure 14: 360 degrees of a virtual environment shown across 3 screens such that each screen contains 120 degrees of the scene’s horizontal axis.</i></sup></div>
 
 ## Control System
 How does the game experimenter and tethered animal interact with the system? What are the specific commands?

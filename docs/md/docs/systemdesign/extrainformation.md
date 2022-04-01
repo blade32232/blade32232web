@@ -37,16 +37,15 @@ h1{
 
 ## Unique Selling Points
 
-The combination of using DLC-live to track the behavior of a tethered animal and Unity to interpret this data and use it to drive a stimulus is a unique and robust solution. In theory this combination of software could allow for the behaviour of almost any tetherable animal to be monitored in a completely controlled virtual environment. This should provide researchers with an invaluable tool to study animal behaviour.
+The combination of using DLC-live to track the behaviour of a tethered animal and Unity to interpret this data and use it to drive a stimulus is a unique and robust solution. In theory this combination of software could allow for the behaviour of almost any tetherable animal to be monitored in a completely controlled virtual environment. This should provide researchers with an invaluable tool to study animal behaviour.
 
 ## Player Experience and POV
 
-The system is being designed around the Eristalis Tenax hoverfly, this animal will be suspended from a tether attached to their thorax, they will be surrounded on all sides by three screens, one in front and one on each side. These stimulus screens will be used to show various stimuli and produce a variety of behaviours from the tethered animal.
+The system is being designed around the Eristalis tenax hoverfly, this animal will be suspended from a tether attached to the dorso-anterior part of the thorax, and will be surrounded on all sides by three screens, forming a triangle as seen from above. These stimulus screens will be used to show various stimuli and produce a variety of behaviours from the tethered animal.
 
 ## Platform(s), Technology and Scope
 
-This system is developed for an Ubuntu PC but should work on any system that can run DLC-live and Unity as it is driven by the combination of these products. The development for this project will continue to be ongoing for the foreseeable future with a small development team, it is expected to be usable within 3-6 months (September-December 2021). 
-
+This system is developed for an Ubuntu PC but should work on any system that can run DLC-live and Unity as it is driven by the combination of these programs. The development for this project will continue to be ongoing for the foreseeable future with a small development team, it is expected to be usable within 3-6 months (September-December 2021). 
 
 ## Internal Systems
 
@@ -54,7 +53,7 @@ This system is developed for an Ubuntu PC but should work on any system that can
 
 | Name | Role |
 | --- | ----------- |
-| DataProcessor | Converts the packets received by the UDPServer into wing beat angles. |
+| DataProcessor | Converts the packets received by the UDPServer into wing beat amplitudes. |
 | DefaultStimulusController | Moves the default scene as specified by the provided default stimulus Scriptable Object. |
 | Enum_Storage | A file that stores all the public enum’s that are used within the project. |
 | FrameLimiter | A script that can optionally be used by the Settings Manager as an alternative way to limit the number of frames. |
@@ -70,7 +69,7 @@ This system is developed for an Ubuntu PC but should work on any system that can
 | Settings_Manager | Applies the settings provided by the chosen Settings_Profile. |
 | Stimulus_Manager | Activates and deactivates stimulus when asked to by the other scripts. |
 | Trial_Manager | Loads the Trial provided by the Sequence_Manager, and passes on the active interventions and interpolations to the other managers. |
-| Sequence_Manager | Allows the user to interact with the software through the CAVE user interface. |
+| UI_Manager | Allows the user to interact with the software through the CAVE user interface. |
 
 ### Scriptible Objects
 
@@ -84,9 +83,5 @@ This system is developed for an Ubuntu PC but should work on any system that can
 | Sequence | Provides a list of trials and the order they should be performed in. |
 | Settings_Profile | Configures various project settings such as frame rate and the name of your personal folder. |
 | Trial | Pick the scene, completion type, pre stimulus and various other settings for an individual trial. |
-
-
-## Interactivity
-How are different kinds of interactivity used? (Action/Feedback, ST Cog, LT Cog, Emotional, Social, Cultural) What is the player doing moment-by-moment? How does the player move through the world? How does physics/combat/etc. work? A clear, professional-looking sketch of the primary game UX is helpful.
 
 > :ToCPrevNext

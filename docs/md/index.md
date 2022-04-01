@@ -83,5 +83,3 @@ This wiki will document how to make use of the Tethered Flight Arena (CAVE) Soft
 > [Videos](/docs/Videos)
 
 > :ToCPrevNext
-
-<iframe style="border-radius: 10px;" height="620" data-tweet-url="https://twitter.com/HoverflyLab" src="data:text/html;data-theme=%22dark%22;charset=utf-8,%3Ca%20class%3D%22twitter-timeline%22%20href%3D%22https%3A//twitter.com/HoverflyLab%3Fref_src%3Dtwsrc%255Etfw%22%3ETweets%20by%20HoverflyLab%3C/a%3E%0A%3Cscript%20async%20src%3D%22https%3A//platform.twitter.com/widgets.js%22%20charset%3D%22utf-8%22%3E%3C/script%3E%0A"></iframe>

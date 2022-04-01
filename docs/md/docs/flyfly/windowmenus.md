@@ -79,7 +79,7 @@ Once you have selected one or more stimuli from the main window and clicked on N
 
 1. #### Stimulus Parameters
 
-   This area is where the user sets the values of all the parameters that determine what exactly the presented stimuli will look like. The parameters are organized in a grid, where each column represents a trial, and each row represents a different aspect of the stimulus (a parameter). 
+   This area is where the user sets the values of all the parameters that determine what exactly the presented stimuli will look like. The parameters are organised in a grid, where each column represents a trial, and each row represents a different aspect of the stimulus (a parameter). 
 
    Trials are executed sequentially from left to right. The duration of each trial, and whether or not there are pauses between or around trials, are set by the common timing parameters (see below).
 
@@ -231,7 +231,7 @@ Once you have selected one or more stimuli from the main window and clicked on N
 
 12. #### “Tools” menu
    There are two menu options on this menu. “Settings” is identical to the Settings option in the Main Window. The specific menu item for a stimulus is the “Record Stimulus” option. This allows the user to save all frames rendered in a stimulus, in one of two ways: as an .avi movie, or as a sequence of images. To use it, do the following:
-   - Initialize the screen
+   - Initialise the screen
    - Select Tools > Record Stimulus > [either “AVI movie” or “Image sequence”]
    - Specify the frame rate at which frames will be sampled (use the screen frame rate if you want to capture every frame)
    - In the case of “Image Sequence”, you will be prompted for a name to give to the folder where the images will be saved
@@ -245,8 +245,8 @@ Once you have selected one or more stimuli from the main window and clicked on N
    M-sequences (or maximum-length sequences) offer a way to generate a pseudo-random sequence of values. In FlyFly, the user can specify that the values of the current row should be taken from an m-sequence containing either 2 or 3 equally spaced values. The two edit boxes on the Stimulus Window define the range of values, in conjunction with the “Base value” box in the subsequent m-sequence dialog window. The left box defines the central value of the m-sequence (we can call it C), and the second box defines the spacing between values (call it s). If “Base value” is equal to 2, a binary m-sequence is generated, and all values will be either C+s or C-s. If “Base value” is equal to 3, the sequence is ternary, and C will also be one of the possible values
 
    Examples: 
-   Set left and right box to 0.5 and 0.5, and Base value to 2, to generate an m-sequence of 0s and 1s.
-   Set left box to 0, right box to 1, Base value to 3, to generate a sequence made up of -1, 0 and 1.
+   Set the left and right box to 0.5 and 0.5 and Base value to 2, to generate an m-sequence of 0s and 1s.
+   Set the left box to 0, the right box to 1 and Base value to 3, to generate a sequence made up of -1, 0 and 1.
 
    It is possible to specify additional details of the exact m-sequence to use, by modifying the other 3 values in the m-sequence dialog box, but detailing how this works falls outside the scope of this manual. The user should consult appropriate references on how m-sequences work before using them. TODO: eventually we will write something more here. Review/methods paper by Aptekar and Frye?
 
@@ -261,11 +261,11 @@ Once you have selected one or more stimuli from the main window and clicked on N
    This button allows for the capture of a high detail image that is needed for calculating an accurate centreline position of the tethered animal.
    #### Version 3.2 change
    ![stimtable](/images/flyfly/image11.png#centered)
-   <sub>**Note:** As of version 3.2 the user can set the background color (the screen color when no stimulus is shown) from the stimulus window, on a scale from 0 - 255. The background color is applied by either pressing “Apply” or “Run”, and is saved with the other parameters.</sub>
+   <sub>**Note:** As of version 3.2 the user can set the background colour (the screen colour when no stimulus is shown) from the stimulus window, on a scale from 0 - 255. The background colour is applied by either pressing “Apply” or “Run”, and is saved with the other parameters.</sub>
 
    #### Version 3.3 change
    ![stimtable2](/images/flyfly/image31.png#centered)
-   <sub>**Note:** In version 3.3 init screen launches guvcview for capturing footage. Two new buttons, Highdef Image is used before init screen to capture high definition image from camera to get centreline of the tethered animal, while Centreline Calc* can be used to get said centreline.</sub>
+   <sub>**Note:** In version 3.3 init screen launches guvcview for capturing footage that is used with Deeplabcut. Currently pauses dont work properly with recording.</sub>
 
 
 
