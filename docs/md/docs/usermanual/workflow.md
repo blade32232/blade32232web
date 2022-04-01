@@ -52,6 +52,12 @@ Once you have done that, the Inspector on your right should show you the followi
 
 ![SequenceMangaer](/images/image4.png#centered)
 
+- Make sure that your settings have been configured in the settings manager
+- That stimulus screens have been enabled in the user interface
+- Data is being saved by the Directory Manager
+- And the Server is not set to run any tests
+
+
 Then click the play button at the top of your screen.
 
 ![SequenceMangaer](/images/image13.png#centered)
