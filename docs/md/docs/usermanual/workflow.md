@@ -30,7 +30,10 @@ img[src*="#centered"] {
 h1{
    text-align:center;
 }
+
 </style>
+
+<div class="stars"></div>
 
 # CAVE - User Manual
 

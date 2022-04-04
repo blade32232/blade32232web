@@ -63,7 +63,6 @@ Interventions are used to manipulate Objects of Interest within the scene during
 
 - Triggers
     - Duration
-    - Line of sight (not implemented)
     - Proximity
 
 The selected action is performed on the <abbr title="An object which acts as an independent variable due to the experimenter’s ability to alter various settings such as its position and behaviour. There can be none or many Objects of Interest within one trial and these objects will usually take the form of a plant, tree, prey, or predator familiar to the tethered animal.">Object of Interest</abbr> once the conditions of the trigger have been met. E.g 3 seconds have passed.
@@ -99,7 +98,7 @@ A trial is where the vast majority of the users choices and setting will be appl
 
 - **Pre and post stimulus** : What is shown to the tethered animal before and after the trial (virtual world) is shown.
 
-- **Pre and post stimulus duration** : Duration the stimulus is shown for in seconds.
+- **Pre and post stimulus duration** : Duration of the stimulus is shown in seconds.
 
 - **List of Interventions** : The interventions being applied to this trial.
 
@@ -117,8 +116,7 @@ A trial is where the vast majority of the users choices and setting will be appl
 
 The sequence contains all the trials we wish to run in a row and allows us to organise the order and number of trials. Here we can also set which control stimulus we wish to use as well as how long this stimulus should last. Finally, we can also add interpolations which will affect all trials within the sequence.
 
-Unity Project Settings
-
+### Unity Project Settings
 
 Color Space is set to Gamma
 By default this is set to Linear, but was switched to Gamma in order to provide more realistic images for the tethered animal. This setting can be found in the following location.
