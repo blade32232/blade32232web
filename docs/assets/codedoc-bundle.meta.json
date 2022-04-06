@@ -74,6 +74,11 @@
       "name": "gatherFootnotes",
       "filename": "C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/components/footnote/gather-footnotes.js",
       "hash": "YajBEjhl3clxsBbQtCaWgQ=="
+    },
+    {
+      "name": "reloadOnChange",
+      "filename": "C:/Users/blade/OneDrive/Documents/GitHub/blade32232.github.io/.codedoc/node_modules/@codedoc/core/dist/es5/serve/reload.js",
+      "hash": "+qfqsyy7eShnHFqHTSx+Yw=="
     }
   ],
   "components": [
